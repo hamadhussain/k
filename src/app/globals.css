@@ -1,21 +1,77 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+  background-color: rgba(42, 37, 75, 1);
+}
+
+.divbg {
+  background-color: rgba(78, 77, 147, 1);
+  width: 824px;
+  height: auto; 
+  @apply overflow-hidden p-12 rounded-lg;
+} */
+
+/* .divbg > p {
+  font-weight: 300;
+} */
+
+/* .btn {
+  @apply bg-black text-white py-2 px-4 rounded-md text-sm;
+}
+
+.btn1 {
+  @apply bg-blue-500 hover:bg-blue-700;
+}
+
+.btn2 {
+  @apply bg-gray-500 hover:bg-gray-700;
+}
+
+.btn3 {
+  @apply bg-yellow-500 hover:bg-yellow-600;
+}
+
+.btn4 {
+  @apply bg-green-500 hover:bg-green-700;
+}
+
+.input {
+  @apply border p-2 w-full rounded text-black;
+} */
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.bg {
+  background-color: rgba(42, 37, 75, 1);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.divbg {
+  background-color: rgba(78, 77, 147, 1);
+  width: 824px;
+  height: 514px;
+  @apply overflow-hidden p-14;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.divbg > p {
+  font-weight: 100;
+}
+.btn {
+  background-color: rgba(42, 37, 75, 1);
+}
+.btn1 {
+  background-color: rgba(42, 37, 75, 1);
+}
+.btn2 {
+  background-color: rgba(42, 37, 75, 1);
+}
+.btn3 {
+  background-color: rgba(42, 37, 75, 1);
+}
+.btn4 {
+  background-color: rgba(42, 37, 75, 1);
 }
