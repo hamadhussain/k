@@ -75,3 +75,10 @@
 .btn4 {
   background-color: rgba(42, 37, 75, 1);
 }
+
+.bg-primary {
+  background-color: #2A254B; /* Matches the main dark background */
+}
+.bg-secondary {
+  background-color: #4E4D93; /* Matches the card background */
+}
